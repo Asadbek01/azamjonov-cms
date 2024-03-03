@@ -1,8 +1,9 @@
 'use strict';
+
 /**
- * blog router
+ * blog service.
  */
 
-const { createCoreRouter } = require('@strapi/strapi').factories;
+const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::blog.blog');
+module.exports = createCoreService('api::blog.blog');
